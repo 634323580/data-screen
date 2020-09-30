@@ -1,7 +1,21 @@
 <template>
   <div id="nav">
     <test-component></test-component>
-    <test2-component></test2-component>
+    <div>
+      <svg width="100" height="100" style="color: red">
+        <use href="#more"></use>
+      </svg>
+    </div>
+    <div>
+      <svg width="100" height="100" style="color: red">
+        <use href="#filledArrowRight"></use>
+      </svg>
+    </div>
+    <div>
+      <svg width="100" height="100" style="color: red">
+        <use href="#arrowRight"></use>
+      </svg>
+    </div>
     <router-link to="/">Home</router-link> |
     <router-link to="/about">About</router-link>
   </div>
