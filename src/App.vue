@@ -1,5 +1,5 @@
 <template>
-  <div id="nav">
+  <!-- <div id="nav">
     <test-component></test-component>
     <div>
       <svg width="100" height="100" style="color: red">
@@ -16,10 +16,14 @@
         <use href="#arrowRight"></use>
       </svg>
     </div>
+    <Loading />
     <router-link to="/">Home</router-link> |
     <router-link to="/about">About</router-link>
   </div>
-  <router-view/>
+  <router-view/> -->
+  <loading width="150" height="150">
+    loading
+  </loading>
 </template>
 
 <style lang="scss">
