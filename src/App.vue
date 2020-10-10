@@ -21,9 +21,10 @@
     <router-link to="/about">About</router-link>
   </div>
   <router-view/> -->
-  <loading width="150" height="150">
+  <!-- <loading width="150" height="150">
     loading
-  </loading>
+  </loading> -->
+  <div style="width: 500px; height: 500px; margin: 100px auto;background: #333;color:#fff;"><dd-fly-box>666666666</dd-fly-box></div>
 </template>
 
 <style lang="scss">
