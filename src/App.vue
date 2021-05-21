@@ -16,6 +16,8 @@
         <use href="#arrowRight"></use>
       </svg>
     </div>
+    <Icon name="filledArrowRight" style="color: red; width: 50px; height: 50px;"></Icon>
+    <Icon name="filledArrowRight" style="color: red; width: 50px; height: 50px;"></Icon>
     <router-link to="/">Home</router-link> |
     <router-link to="/about">About</router-link>
   </div>
