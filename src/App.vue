@@ -1,5 +1,5 @@
 <template>
-  <div id="nav">
+  <!-- <div id="nav">
     <test-component></test-component>
     <div>
       <svg width="100" height="100" style="color: red">
@@ -21,7 +21,11 @@
     <router-link to="/">Home</router-link> |
     <router-link to="/about">About</router-link>
   </div>
-  <router-view/>
+  <router-view/> -->
+  <!-- <loading width="150" height="150">
+    loading
+  </loading> -->
+  <div style="width: 500px; height: 500px; margin: 100px auto;background: #333;color:#fff;"><dd-fly-box>666666666</dd-fly-box></div>
 </template>
 
 <style lang="scss">
